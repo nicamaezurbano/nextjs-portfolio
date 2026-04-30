@@ -42,6 +42,54 @@ const projects = [
     gradient: "from-purple-500 to-pink-500",
     image: "/gps.jpg",
     link: "#"
+  },
+  {
+    title: "Windows Forms Application",
+    description: "A simple, desktop-based ordering solution built with C# Windows Forms.",
+    tech: ["C#", "Windows Forms"],
+    gradient: "from-green-500 to-emerald-500",
+    image: "/mr-frostie.png",
+    link: "https://github.com/nicamaezurbano/C-sharp-project"
+  },
+  {
+    title: "Windows Forms Application",
+    description: "A desktop-based retail management application, featuring robust database integration for data storage and automated business reporting via Crystal Reports.",
+    tech: ["C#", "Windows Forms", "MySQL", "Crystal Reports"],
+    gradient: "from-purple-500 to-pink-500",
+    image: "/online-shop.png",
+    link: "https://github.com/nicamaezurbano/C-sharp-project-with-database-connection"
+  },
+  {
+    title: "E-Commerce Website",
+    description: "A fully responsive e-commerce storefront prototype focusing on modern UI/UX design. Built to demonstrate seamless navigation, fluid grid layouts, and an intuitive product browsing experience across all devices.",
+    tech: ["WordPress"],
+    gradient: "from-purple-500 to-pink-500",
+    image: "/wordpress.png",
+    link: "https://dev-crochet-and-knitted.pantheonsite.io/"
+  },
+  {
+    title: "SIT Website",
+    description: "A sleek, mobile-friendly platform developed for the School of Information Technology, prioritizing an intuitive interface and seamless navigation.",
+    tech: ["HTML5", "CSS3", "Bootstrap"],
+    gradient: "from-purple-500 to-pink-500",
+    image: "/SIT-website.png",
+    link: "https://nicazur.netlify.app/school-of-it/"
+  },
+  {
+    title: "Mobile App Design",
+    description: "A low-fidelity mobile application prototype created with Balsamiq Wireframes, focusing on core user flows, screen layouts, and early-stage UI conceptualization.",
+    tech: ["Balsamiq Wireframes"],
+    gradient: "from-purple-500 to-pink-500",
+    image: "/brain-boost.png",
+    link: "https://www.canva.com/design/DAF2BlNujZk/odDmI1PHAuxV3Uxdr_BUeQ/view?utm_content=DAF2BlNujZk&utm_campaign=designshare&utm_medium=link&utm_source=editor"
+  },
+  {
+    title: "Mobile App Design",
+    description: "Designed intuitive mobile wireframes using Balsamiq to blueprint a student productivity app, focusing on seamless schedule creation and task management workflows.",
+    tech: ["Balsamiq Wireframes"],
+    gradient: "from-purple-500 to-pink-500",
+    image: "/optimizer.png",
+    link: "https://www.canva.com/design/DAF2BnMBNrI/r9kQRtarolIKklFQ5XKVIA/view?utm_content=DAF2BnMBNrI&utm_campaign=designshare&utm_medium=link&utm_source=editor#4"
   }
 ];
 

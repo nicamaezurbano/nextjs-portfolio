@@ -38,7 +38,7 @@ const projects = [
   {
     title: "MyGPS Application Backend",
     description: "Scalable database structures, ERDs, and secure API endpoints to handle complex connections for real-time tracking.",
-    tech: ["Laravel", "PostgreSQL", "REST APIs"],
+    tech: ["Laravel", "MySQL", "REST APIs"],
     gradient: "from-purple-500 to-pink-500",
     image: "/gps.jpg",
     link: "#"

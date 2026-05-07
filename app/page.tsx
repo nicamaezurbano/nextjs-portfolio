@@ -28,6 +28,14 @@ const staggerContainer: Variants = {
 // Portfolio Data
 const projects = [
   {
+    title: "Bulk SMS sending",
+    description: "A web-based application that features bulk SMS sending to a selected contact.",
+    tech: ["Laravel", "Blade Template", "MySQL", "TextBee", "API"],
+    gradient: "from-blue-500 to-cyan-400",
+    image: "/laravel-textbee.png",
+    link: "https://github.com/nicamaezurbano/laravel-and-blade-sending-bulk-sms"
+  },
+  {
     title: "Inventory Management System",
     description: "A comprehensive web-based platform designed to optimize operational efficiency and fully automate dispatching workflows.",
     tech: ["PHP", "SQL", "JavaScript", "Bootstrap"],
@@ -35,14 +43,14 @@ const projects = [
     image: "/inventory.jpg",
     link: "#"
   },
-  {
-    title: "MyGPS Application Backend",
-    description: "Scalable database structures, ERDs, and secure API endpoints to handle complex connections for real-time tracking.",
-    tech: ["Laravel", "MySQL", "REST APIs"],
-    gradient: "from-purple-500 to-pink-500",
-    image: "/gps.jpg",
-    link: "#"
-  },
+  // {
+  //   title: "MyGPS Application Backend",
+  //   description: "Scalable database structures, ERDs, and secure API endpoints to handle complex connections for real-time tracking.",
+  //   tech: ["Laravel", "MySQL", "REST APIs"],
+  //   gradient: "from-purple-500 to-pink-500",
+  //   image: "/gps.jpg",
+  //   link: "#"
+  // },
   {
     title: "Windows Forms Application",
     description: "A simple, desktop-based ordering solution built with C# Windows Forms.",
@@ -222,7 +230,7 @@ export default function Home() {
               <div className="mb-6">
                 <h3 className="text-xs font-semibold text-gray-900 dark:text-gray-100 mb-3 uppercase tracking-wider">Development</h3>
                 <div className="flex flex-wrap gap-2">
-                  {['PHP', 'JavaScript', 'HTML5', 'CSS3', 'Laravel', 'Code Igniter', 'Angular', 'Bootstrap', 'Tailwind CSS', 'MySQL', 'PostgreSQL', 'Git'].map((skill) => (
+                  {['PHP', 'JavaScript', 'C#', 'HTML5', 'CSS3', 'Laravel', 'Code Igniter', 'Angular', 'React Native', 'Bootstrap', 'Tailwind CSS', 'MySQL', 'PostgreSQL', 'Git', 'GitHub', 'Docker'].map((skill) => (
                     <span key={skill} className="px-3 py-1.5 text-xs font-medium bg-gray-100 dark:bg-white/5 text-gray-700 dark:text-gray-300 rounded-md hover:bg-gray-200 dark:hover:bg-white/10 transition-colors">
                       {skill}
                     </span>
